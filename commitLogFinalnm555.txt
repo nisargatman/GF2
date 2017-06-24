@@ -1,0 +1,806 @@
+commit 90887edcb38ec4196b8468bd3135cbd1598ea181
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Tue May 31 14:12:56 2016 +0100
+
+    Translation fixes
+
+commit 773bd16e2c0a3cae7fe26760a6f47b0cdfaca2fe
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Tue May 31 13:58:50 2016 +0100
+
+    Fixed small bug
+
+commit 3645d7d03b1381aef8db4c8faa29a8f83fd6e1ad
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Tue May 31 11:16:19 2016 +0100
+
+    Corrected translations, commented some code, cleaned up some code
+
+commit 2ae8d39ed85d18ca03a2c91ebec9a16291b6b705
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Tue May 31 10:12:20 2016 +0100
+
+    Check environment variable to set language
+
+commit 875be7908e6c2fe9ad5003d6558b1004d0f49fd3
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Tue May 31 09:19:30 2016 +0100
+
+    Cleaned some headers
+
+commit 057e728d8294f3bc26ef780acf9a631fc7f7658e
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Mon May 30 20:23:15 2016 +0100
+
+    Removed po directory with superfluous files
+
+commit 86d7d7b2585c11be4c68e662d80c03cb907ec2c8
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Mon May 30 20:21:35 2016 +0100
+
+    Improved transalations
+
+commit 3569658699d12e42b234150d90697491e0e79cdd
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Mon May 30 19:42:28 2016 +0100
+
+    Fixed some bugs
+
+commit 1104665ce859c4585b7b07b4476221f6eebd3b29
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Mon May 30 19:16:27 2016 +0100
+
+    Tested functionality to change language from inside GUI.
+    Currently reverted back to selecting language from cmdline
+
+commit 13c40037b19e066fbd715936e9a58428dda57cef
+Merge: 209178d 9143c87
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Mon May 30 18:29:24 2016 +0100
+
+    Merge branch 'master' of /homes/nm555/GF2_shared/Common/SoftEngProj
+
+commit 209178d3876746c304263a4746118fdd31ab7821
+Merge: 9fa035a 4af3e0f
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Mon May 30 18:29:20 2016 +0100
+
+    Merge branch 'master' of /homes/nm555/GF2_shared/Common/SoftEngProj
+    
+    Conflicts:
+    	src/gui.cc
+
+commit 9fa035af7f6f73a1443ce73de802aa60bb36657f
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Mon May 30 18:17:37 2016 +0100
+
+    Added support for Hindi
+
+commit c315695e39d72739b5b9325936a8b066a8570a10
+Merge: b4eea77 e392c1e
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Mon May 30 17:42:49 2016 +0100
+
+    Merge branch 'master' of /homes/nm555/GF2_shared/Common/SoftEngProj
+
+commit b4eea77ad707e21198d73e5ca07adaae14d368b1
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Mon May 30 17:42:31 2016 +0100
+
+    Added lang folder with translations file
+
+commit 8b79b8c6430a5bd7102145adc065c143d0cdcc8e
+Merge: 73f617b 4a7b83c
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Mon May 30 17:38:20 2016 +0100
+
+    Merge branch 'int'
+
+commit 4a7b83cf4b7e401599c7ef45d7a091becce2d954
+Merge: 8052135 3a6fe17
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Mon May 30 17:36:06 2016 +0100
+
+    Merge branch 'master' of /homes/nm555/GF2_shared/Common/SoftEngProj into int
+    
+    Conflicts:
+    	src/gui.h
+
+commit 8052135dc53ba9e4bba20a994be6fc9e40d909ce
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Mon May 30 16:59:18 2016 +0100
+
+    Internationalisation testing partial working
+
+commit d5a9f8a089ece2e3dd1fa6cb2f74393924f8374e
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Sun May 29 18:51:18 2016 +0100
+
+    Added underscore macros before using gettext
+
+commit 82ec5cf45314e365e1ad61fcfa8b6a4fc3a0581c
+Merge: 35bcd5a 814f677
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Sun May 29 17:29:32 2016 +0100
+
+    Merge branch 'master' of /homes/nm555/GF2_shared/Common/SoftEngProj
+
+commit 35bcd5a1d8978dc4e2fa5ff95ed2185f9bf36f66
+Merge: 7a8adf7 e13d52c
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Fri May 27 12:43:26 2016 +0100
+
+    Merge branch 'master' of /homes/nm555/GF2_shared/Common/SoftEngProj
+
+commit 7a8adf725674b2612573f9de1d82433ca4b2d438
+Merge: 8ef6274 06c48b5
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Fri May 27 11:16:41 2016 +0100
+
+    Merge branch 'master' of /homes/nm555/GF2_shared/Common/SoftEngProj
+
+commit 8ef62740edc05c7eb0ddc0f78f63bf1d621fbd09
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Fri May 27 11:16:21 2016 +0100
+
+    Modified example file
+
+commit 1c7c41ee3a156c0c767b96ff812fc70a2d91398f
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Thu May 26 12:59:43 2016 +0100
+
+    Cleaned up code and removed unused functions
+
+commit 109c582326665cbc35c34fc65a83aa3aa0e4ee97
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Thu May 26 12:44:16 2016 +0100
+
+    Removed unwanted viewing file functionality
+
+commit 24b9911611115c2dc8cc3b66159953bf1bb60558
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Thu May 26 12:39:57 2016 +0100
+
+    Removed unused options from menubar
+
+commit 2667974bb6271ea6c7d4462d7e184803c22cfdeb
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Thu May 26 12:37:37 2016 +0100
+
+    Clean up code
+
+commit 91313cf68d8cace0f314219a842e57fed93bcb17
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Thu May 26 12:09:47 2016 +0100
+
+    Fixed some problems with double clicking in switch list box, added double click to monitor dialog list box
+
+commit 2e1db8e3ca97e78a527990981c05eb665b549655
+Merge: 0e23e08 f460198
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Thu May 26 11:30:17 2016 +0100
+
+    Merge branch 'master' of /homes/nm555/GF2_shared/Common/SoftEngProj
+
+commit 0e23e08a3c9f00fb61fe40e63ae52640ae4097e1
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Thu May 26 11:28:40 2016 +0100
+
+    Rectified exporting output to file
+
+commit e07c59e4398eb827317e585a1af26061e4a85064
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Wed May 25 02:36:18 2016 +0100
+
+    Added functionality to include a radio button. May use later. Currently commented out
+
+commit 35c09e7e59c9cbfd3b8c6db0804dcaa3600bd156
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Tue May 24 23:47:36 2016 +0100
+
+    Added comments in files and cleaned up code. Also started implementing some functionality for possible error scenarios
+
+commit 33ff0fecc06af4a566e78eb027829fd7e7cdfc85
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Tue May 24 19:11:20 2016 +0100
+
+    Cleaned up some code and included some comments for things to do
+
+commit 18e288d4b092f916b4f13a6e892f05b834827bc9
+Merge: dff5d71 9d158b3
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Tue May 24 19:07:29 2016 +0100
+
+    Merge branch 'master' of /homes/nm555/GF2_shared/Common/SoftEngProj
+
+commit dff5d7157e0bb11f32b49c2ac39393f667f6a0e2
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Tue May 24 19:06:20 2016 +0100
+
+    Added double click event for switch list box: need to make more natural to use
+
+commit a49aa99534f0b6eec9fa7e3bdb812daeef534a5d
+Merge: 2fb6071 b8897d7
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Tue May 24 18:31:34 2016 +0100
+
+    Merge branch 'master' of /homes/nm555/GF2_shared/Common/SoftEngProj
+
+commit 2fb60712d26d5e3984d6b97c7c9f1581f7483edf
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Tue May 24 18:31:20 2016 +0100
+
+    Resized windows
+
+commit 6748e970f3b153686380f290aa50a7f65487e393
+Merge: fcce782 b63799f
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Tue May 24 18:25:57 2016 +0100
+
+    Merge branch 'master' of /homes/nm555/GF2_shared/Common/SoftEngProj
+
+commit fcce782f33fbff34ed48b658d6b55ede4c606280
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Tue May 24 18:25:41 2016 +0100
+
+    Added full functionality for displaying axes
+
+commit dc30ddde10a552c755b9c6e0c6b6990bb7e4ca46
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Tue May 24 17:07:15 2016 +0100
+
+    Added basic axes
+
+commit 6a00b144cfe82850954cc4829e09c380512f74b6
+Merge: 99b98ae b3db9e8
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Tue May 24 16:52:49 2016 +0100
+
+    Merge branch 'master' of /homes/nm555/GF2_shared/Common/SoftEngProj
+
+commit 99b98ae0e35d555807861ebe8206e50b863d7249
+Merge: 3dfef48 a3e0ab9
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Tue May 24 16:52:20 2016 +0100
+
+    Merge branch 'master' of /homes/nm555/GF2_shared/Common/SoftEngProj
+    
+    Conflicts:
+    	src/trace.cc
+
+commit 3dfef4853637d0afa0a767b839df30284eeb99e9
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Tue May 24 16:23:23 2016 +0100
+
+    Started drawing axes
+
+commit 471dd08145460688476013f2c6764e436933103b
+Merge: 6c6b4ea cf31067
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Tue May 24 15:33:26 2016 +0100
+
+    Merge branch 'master' of /homes/nm555/GF2_shared/Common/SoftEngProj
+
+commit 6c6b4eadf3b65bb799c2e953e97dd2e72f0f4149
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Tue May 24 15:32:58 2016 +0100
+
+    Prompts user to choose if export when no simulation has been run
+
+commit cec4b99b321dd6d9f384412579661a115ff525a2
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Tue May 24 15:12:07 2016 +0100
+
+    Moved export output to Tab and wrote monitor names to the file as well
+
+commit 6c809c514a3708ed809aa87843557ff4f85e7010
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Tue May 24 14:49:43 2016 +0100
+
+    Removed reload file option
+
+commit 2e1978dcf6244f32357894969759684fa5e63bd1
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Tue May 24 14:46:59 2016 +0100
+
+    Allows user to choose where to save output
+
+commit 10700ffda879f65eac35d23ca2b20792b15aac32
+Merge: 15890e8 4719b5d
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Tue May 24 12:47:08 2016 +0100
+
+    Merge branch 'master' of /homes/nm555/GF2_shared/Common/SoftEngProj
+
+commit 15890e847c636b38fb8749d8b056185a6eaa722b
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Tue May 24 12:46:46 2016 +0100
+
+    Export output to a file named with date and time
+
+commit d58ccf95ca4ad4c2fa8050695d94ec9dfda2b7f3
+Merge: 2b6b5ed 16c683e
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Tue May 24 12:07:44 2016 +0100
+
+    Merge branch 'master' of /homes/nm555/GF2_shared/Common/SoftEngProj
+
+commit 2b6b5eda25d9f04f3bc1b7f873180bf5a1badff6
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Tue May 24 12:07:15 2016 +0100
+
+    Can now flick switches on and off and run network
+
+commit 28d191558e96a26f0d3bb178c5fa29239bc281d1
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Tue May 24 11:43:25 2016 +0100
+
+    Populates list of switches in dialog box and checks the ones currently high
+
+commit a0ccd3cd334ae02310adc58fed420b1af9ddf567
+Merge: 049ce8c d9bea88
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Tue May 24 10:48:29 2016 +0100
+
+    Merge branch 'master' of /homes/nm555/GF2_shared/Common/SoftEngProj
+
+commit 049ce8c5090ee86865e7c7ea1af510e5581ca1f3
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Tue May 24 10:48:15 2016 +0100
+
+    Cleaned up code
+
+commit 20d57366fd630200af5e792f70dbf1830708a426
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Tue May 24 10:35:51 2016 +0100
+
+    dialog boxes for switches
+
+commit 089bc5c6a0d89272c3c85086f7c57bde2485a80f
+Merge: dec7179 0708804
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Tue May 24 10:27:07 2016 +0100
+
+    Merge branch 'master' of /homes/nm555/GF2_shared/Common/SoftEngProj
+
+commit dec717975bdfedcf291eeb9d4dd6873d81ec6f72
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Tue May 24 10:26:34 2016 +0100
+
+    Added constructor for switches dialog box
+
+commit 24cf42c56ecb75bed919b6802504e3b40c0c2405
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Tue May 24 10:25:46 2016 +0100
+
+    Pop up menu with switches added
+
+commit 0369761b85b8f2d52a5cf5855dcc18bf40f41ecd
+Merge: 9949612 5cfb110
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Tue May 24 09:51:48 2016 +0100
+
+    Merge branch 'master' of /homes/nm555/GF2_shared/Common/SoftEngProj
+
+commit 994961237374ef20877cdf5884dd2e4e407998d0
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Tue May 24 09:51:24 2016 +0100
+
+    Added new function to devices to return a list of all devices
+
+commit 7dbfe9789610195660a617c8db334b324033cd32
+Merge: c390df9 fa5c850
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Tue May 24 09:24:08 2016 +0100
+
+    Merge branch 'master' of /homes/nm555/GF2_shared/Common/SoftEngProj
+
+commit c390df9a87ece39a770e80023287bf8be2f6fed1
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Tue May 24 09:23:42 2016 +0100
+
+    Added dialog box for switches to flick on and off
+
+commit 94da574a330741c089150db77165e920cec67f91
+Merge: 66a687b b218e36
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Mon May 23 19:24:40 2016 +0100
+
+    Merge branch 'master' of /homes/nm555/GF2_shared/Common/SoftEngProj
+
+commit 66a687b969a4e7d9497360915da5413588d8d126
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Mon May 23 19:24:26 2016 +0100
+
+    Can now export output to a file.
+
+commit ece092bba0dd14f07278078ad622f9660b0d28d9
+Merge: db6ad68 26df5da
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Mon May 23 18:19:20 2016 +0100
+
+    Merge branch 'master' of /homes/nm555/GF2_shared/Common/SoftEngProj
+
+commit db6ad68b53e755dd10c6ceba174d7425e3bb0ed3
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Mon May 23 18:18:51 2016 +0100
+
+    Functionality to open and view def file
+
+commit 26d796886c8df525eb2c66933097bb190dce06fd
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Mon May 23 18:11:07 2016 +0100
+
+    Added monitor dialog box
+
+commit 1f79ed5c25c326e013a88e5aa2eb8b06d2bb4657
+Merge: f612469 3620726
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Mon May 23 18:07:59 2016 +0100
+
+    Merge branch 'master' of /homes/nm555/GF2_shared/Common/SoftEngProj
+    
+    Conflicts:
+    	src/gui.h
+    	src/tab.cc
+    	src/tab.h
+
+commit f61246910bb98f13ee20223add2d390cee80c01d
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Mon May 23 18:03:42 2016 +0100
+
+    Added dialog box with list box for monitor points
+
+commit e18735928451f8e70c06061f222ef9b13201d48d
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Mon May 23 16:13:02 2016 +0100
+
+    Small changes to clean up code
+
+commit a485e878b1ab111a162382be611fda8f639837d8
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Mon May 23 16:09:21 2016 +0100
+
+    Small changes to clean up code
+
+commit 11e9bb1077cb4d4a870f59521040abfc0452d3b7
+Merge: 1a6e39b 9f5a2ad
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Mon May 23 15:54:45 2016 +0100
+
+    Merge branch 'master' of /homes/nm555/GF2_shared/Common/SoftEngProj
+
+commit 1a6e39b04c7d4ce8ce10fd1926fd9a7fc9a5f6ca
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Mon May 23 13:25:01 2016 +0100
+
+    Pop up menus for monitor points
+
+commit 8b98ef342902370ae2462f3f611583ef4a374a54
+Merge: 78c7b17 caf241a
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Mon May 23 13:01:22 2016 +0100
+
+    Merge branch 'master' of /homes/nm555/GF2_shared/Common/SoftEngProj
+
+commit 78c7b1781db6f03a0cd08084ac4c258a6a45d1ba
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Mon May 23 13:01:00 2016 +0100
+
+    Pop up menu testing
+
+commit 390227591d897a7b2c5ee0713a402f5495356121
+Merge: 008adcf ed3853d
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Mon May 23 12:34:44 2016 +0100
+
+    Merge branch 'master' of /homes/nm555/GF2_shared/Common/SoftEngProj
+
+commit 008adcf45eb1ce06bb4cf669f9ec716035f0040b
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Mon May 23 12:34:18 2016 +0100
+
+    Added list box and combo box functionality for monitor points control
+
+commit accf1a1e7b326dd1afe84ade17b60c01183cf335
+Merge: 9664272 12c6653
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Sun May 22 23:00:30 2016 +0100
+
+    Merge branch 'master' of /homes/nm555/GF2_shared/Common/SoftEngProj
+
+commit 9664272debb8032067a8256a2a995c09a29f28a2
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Sun May 22 23:00:02 2016 +0100
+
+    Event handling for monitor list box
+
+commit ae9417492bd058b566d8012637645f0c5e10ceaa
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Sun May 22 22:33:13 2016 +0100
+
+    Corrected code to change array to vector to avoid seg fault
+
+commit 057c459919ce711495167abcc0db53d86bd869cd
+Merge: 84473b0 0095f49
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Sun May 22 22:23:56 2016 +0100
+
+    Merge branch 'master' of /homes/nm555/GF2_shared/Common/SoftEngProj
+
+commit 84473b018f5fb82492b05d85f40eb18821ecaf70
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Sun May 22 22:23:35 2016 +0100
+
+    Changed list box to check list box
+
+commit a962153dd775b9a9b70c870a51e014f818b4b217
+Merge: 63cefb0 d7c617b
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Sun May 22 21:46:29 2016 +0100
+
+    Merge branch 'master' of /homes/nm555/GF2_shared/Common/SoftEngProj
+
+commit 63cefb0e57c5183b5539d08cc8efaaf3c66c3ffe
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Sun May 22 21:46:06 2016 +0100
+
+    Added list box
+
+commit f57477f1f1bb52793774fcaa726175f1f4d6480e
+Merge: 0669a8f 302289a
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Sun May 22 21:29:34 2016 +0100
+
+    Merge branch 'master' of /homes/nm555/GF2_shared/Common/SoftEngProj
+
+commit 0669a8f4d6bc914bbae06638e23ea36f75b4ca69
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Sun May 22 21:29:19 2016 +0100
+
+    Changed choice to a list box
+
+commit b75977581b80f31eb7d7ae104d0783be607912f8
+Merge: dbddfbd 4d87a64
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Sun May 22 21:01:33 2016 +0100
+
+    Merge branch 'master' of /homes/nm555/GF2_shared/Common/SoftEngProj
+    
+    Conflicts:
+    	src/gui.cc
+    	src/tab.cc
+
+commit dbddfbdb79666fe1c8f5021da147dd718ac3d983
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Sun May 22 20:52:55 2016 +0100
+
+    Commited some previous changes
+
+commit 60f8d9c7d9e4b6cac5d6f130920230d8a0ec4edf
+Merge: 78ea5b5 ebd0bf4
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Fri May 20 19:19:40 2016 +0100
+
+    Merge branch 'master' of /homes/nm555/GF2_shared/Common/SoftEngProj
+
+commit 78ea5b59650a96168014dcb2ae0166c3b091fe1a
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Fri May 20 19:19:10 2016 +0100
+
+    Added changes to change size
+
+commit a3d4ee9757a25f25cd2f6c83de83937d8c65410d
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Fri May 20 16:22:59 2016 +0100
+
+    Set min size for frame
+
+commit 0853d968b30391561817e42ba16b29314597d25e
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Fri May 20 13:41:37 2016 +0100
+
+    Changed variable length array to vector
+
+commit acfc3582a9f930fabf4ba1c62ac23ae810a3d02f
+Merge: 5239de7 4367a87
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Fri May 20 13:35:26 2016 +0100
+
+    Merge branch 'master' of /homes/nm555/GF2_shared/Common/SoftEngProj
+    
+    Conflicts:
+    	src/gui.cc
+    	src/gui.h
+
+commit 5239de7aba8a4d04c05f662bbd0b9ca674bc3c7a
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Fri May 20 13:23:40 2016 +0100
+
+    Finding list of monitor points
+
+commit 08365de2570db4e434c131e5ce1697b2653265f1
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Thu May 19 14:26:43 2016 +0100
+
+    Added functionality to open a new file
+
+commit f058ac68b6dd76af0c1cf8f557c7697010b52b12
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Thu May 19 14:00:31 2016 +0100
+
+    Modified command to open text editor in background
+
+commit 9f65d57cfd0cd11f8ca36884e4bdf6fa28fb1e5f
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Thu May 19 13:55:13 2016 +0100
+
+    Added basic toolbar
+
+commit ffe9af2a1bab7980bf52a9d42805a41ee45f1da8
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Thu May 19 13:08:33 2016 +0100
+
+    Added functionality to open files in default system text editor
+
+commit 53355e04f8f055f35026be8326c3b922004194e8
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Thu May 19 12:32:40 2016 +0100
+
+    Draw multiple signals in GUI
+
+commit a285bdb149efcac312541e429d7f6c05b241a654
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Thu May 19 12:07:10 2016 +0100
+
+    Modified logsim to use GUI, deleted guitest
+
+commit 641c49f93094220fccf6531d09b66754e137a4ce
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Thu May 19 12:01:45 2016 +0100
+
+    Modified gui.cc to correct seg fault
+
+commit a98eaea9239492569448449797a74e20f8c3956d
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Thu May 19 11:32:53 2016 +0100
+
+    Changed .xyz file type to .txt in file dialog
+
+commit a05aecad0fffc8a48f41945befbf985a451cdbb2
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Thu May 19 11:26:54 2016 +0100
+
+    Added functionality for opening a file.
+
+commit c8ca89dc046f3fa75d4711f1c582e5c167a705f2
+Merge: 860d4e2 82ccfa7
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Tue May 17 17:15:54 2016 +0100
+
+    Merge branch 'master' of /homes/nm555/GF2_shared/Common/SoftEngProj
+
+commit 860d4e2e30445e155ac5265bb01d1ca008419996
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Tue May 17 17:14:38 2016 +0100
+
+    Added more functionality
+
+commit 2634d8979668d219012cc1013b4af091141c5224
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Tue May 17 16:13:38 2016 +0100
+
+    Changed Layout
+
+commit fc7241e68036f24f53a3192958c64e2762c44dc4
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Tue May 17 15:51:33 2016 +0100
+
+    Changed background color
+
+commit 43af265ce7f783860bb9733922854bf4410732c4
+Merge: 6888688 92041ea
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Tue May 17 15:31:02 2016 +0100
+
+    Merge branch 'master' of /homes/nm555/GF2_shared/Common/SoftEngProj
+
+commit 68886889460ac762b0caaeb9506887e06d09035c
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Tue May 17 15:30:40 2016 +0100
+
+    Added a few text entry fields and buttons.
+
+commit ee768ab13eb9aa0fb7fe24d65360a8ae2a7c6c05
+Merge: 023a7e6 7dce647
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Tue May 17 14:26:16 2016 +0100
+
+    Merge branch 'master' of /homes/nm555/GF2_shared/Common/SoftEngProj
+
+commit 023a7e69bf03d7f0b3ebf13fab1dc3a270cd05cf
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Tue May 17 14:25:40 2016 +0100
+
+    Added newer menu options
+
+commit ee1fcce3887f76ab7b8fba364d21aa0a48eb812e
+Merge: c238f47 caf0c9d
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Tue May 17 11:13:35 2016 +0100
+
+    Merge branch 'master' of /homes/nm555/GF2_shared/Common/SoftEngProj
+
+commit c238f47da0eb11d79671cf9454b620e97da0fbea
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Tue May 17 11:12:58 2016 +0100
+
+    Added menu items to gui
+
+commit b1e3d2e1b246a37648b47e677d8823028892fc8a
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Fri May 13 12:04:23 2016 +0100
+
+    Modified test.cc for more functionality.
+
+commit d748bed607833da152034414c5a7f47f40e96577
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Fri May 13 11:57:49 2016 +0100
+
+    Made changes to test.cc to test additional functionality.
+
+commit 1af718786eab186b46e75a317efb95b3ec0822ea
+Merge: 1d82567 c26fa99
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Wed May 11 21:59:53 2016 +0100
+
+    Merge branch 'master' of /homes/nm555/GF2_shared/Common/SoftEngProj
+
+commit 1d82567acdf9ccaded91187b4538922b6625d044
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Wed May 11 21:59:17 2016 +0100
+
+    test.cc modified
+
+commit 5ed11d89029e36a7fc55fcd24070550aa14e8eb2
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Wed May 11 20:59:34 2016 +0100
+
+    test.cc updated
+
+commit 339b4b72ec06cd5529b4f09e87f36b09f9e0f9a1
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Wed May 11 20:47:54 2016 +0100
+
+    Non-functioning wxwidgettest.cc replaced with test.cc
+
+commit ad96dfce6ee378277494c3d21f1cf4fa0d4a88e5
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Wed May 11 17:48:11 2016 +0100
+
+    Changed makefile to include wxwidgettest
+
+commit 1228782e6faa1a785883369d43ba430bd6f6209b
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Wed May 11 17:42:18 2016 +0100
+
+    Removed the wxwidgettest executable.
+
+commit e711159e209a83d5d121faf64cfb672755edaa69
+Merge: 58e2190 b9cfd97
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Wed May 11 17:38:07 2016 +0100
+
+    Merge branch 'master' of /homes/nm555/GF2_shared/Common/SoftEngProj
+
+commit 58e21903178d07796d0f3ccafc49bf74ab6f3282
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Wed May 11 17:36:01 2016 +0100
+
+    Added a piece of code to test wxWidgets
+
+commit ecbbd20626f788c73821df893790dde52e9de53c
+Author: Nisarg Mehta <nm555@cam.ac.uk>
+Date:   Tue May 10 11:04:07 2016 +0100
+
+    Fixed errors in scanner.h and scanner.cc
